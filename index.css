@@ -1,0 +1,130 @@
+*{  
+    margin: 0;
+    font-family: 'Allerta', sans-serif;
+}
+
+#navbarMonstera{
+display: flex;
+justify-content: space-between;
+}
+
+#navFirst{  
+    margin-top: 3.5rem;
+    margin-left: 2.5rem;
+}
+
+#navMid{    
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 4.5rem;
+    margin-right: 14rem;
+}
+
+#navMid h4{
+    margin-left: 5rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#navMid h4::after{  
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: #000;
+    transition: width .3s;
+    cursor: pointer;
+}
+
+#navMid h4:hover::after{
+    width: 100%;
+    cursor: pointer;
+}
+
+#navEnd{
+    display: flex;
+    margin-top: 4rem; 
+    margin-right:3rem;    
+}
+
+#navEnd img{    
+    margin-left: 1.5rem;
+    width: 19px;
+}
+
+#midWhole {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+  
+  #midWholePart1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-self: flex-end;
+  }
+  
+  #monstera {
+    margin-top: 9rem;
+    font-size: 100px;
+    font-family: Allerta;
+    font-weight: 900;
+  }
+  
+  #midWholePart11>div>ul>li:nth-child(3) {
+    margin-right: 9rem;
+    font-size: 16px;
+    font-family: Allerta;
+    font-weight: 100;
+    color: #79787b;
+  }
+  
+  #midWholePart11>div>ul>li:nth-child(4) {
+    font-size: 16px;
+    font-family: Allerta;
+    font-weight: 100;
+    width: 500px;
+    color: #79787b;
+  }
+  
+  #midWholePart121>div>h1 {
+    margin-left: 4rem;
+    width: 200px;
+    text-align: center;
+    background-color: #466d50;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: Allerta;
+    font-weight: 100;
+  }
+  
+  #midWholePart13 {
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+  }
+  
+  .midWholePart13Parts {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .midWholePart13Parts>div>h4 {
+    font-size: 16px;
+    font-family: Allerta;
+    font-weight: 900;
+  }
+  
+  .text {
+    width: 150px;
+    font-size: 12px;
+  }
+  
+  #imgMain {
+    margin-top: 6rem;
+    height: 600px;
+    width: 522px;
+  }
+  
